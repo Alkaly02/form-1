@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<!-- fontawesome link -->
+	<script src="https://kit.fontawesome.com/7e3bdb7036.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<main>
+		<section id="left-section">
+			<div class="left-icon">
+				<i class="fas fa-holly-berry"></i>
+			</div>
+			<p>Plan your activites and control your <span>progress online</span></p>
+			<div class="icon-center">
+				<i class="fas fa-rocket"></i>
+			</div>
+			<div class="devider-1"></div>
+			<div class="devider-2"></div>
+			<div class="container">
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+			</div>
+		</section>
+		<section id="right-section">
+			<div class="sign">
+				<div class="link">
+					<ul>
+						<li class="sign-in"><a href="#">Sign In</a></li>
+						<li class="sign-up"><a href="#">Sign Up</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="form-container">
+				<p><a href="#" class="sign-in">Sign In</a> or <a href="#" class="sign-up">Sign Up</a></p>
+				<form action="#">
+					<label>Full Name <input type="text" name="name" min="5" max="50" placeholder="Enter your full name"></label>
+					<label>Password <input type="password" name="password" placeholder="*********" pattern="[a-z0-5]"></label>
+					<label>Email <input type="email" name="email" placeholder="my.email@gmail.com"></label>
+					<label><input type="checkbox" name="agreement"> <span>I agree to all conditions</span></label>
+					<input type="submit" name="submit" value="Sign Up">
+				</form>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
